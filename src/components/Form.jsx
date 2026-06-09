@@ -1,6 +1,8 @@
 // const GEMINI_API_KEY = "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";
 
-const GROQ_API_KEY = "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";
+// const GROQ_API_KEY = "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";
+const GROQ_API_KEY = import.meta.env.VITE_GROQ_API_KEY;
+echo VITE_GROQ_API_KEY=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 > .env
 
 function Form({ formData, setFormData, aiLoading, setAiLoading }) {
   const handleChange = (e) => {
