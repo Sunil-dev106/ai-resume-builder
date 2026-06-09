@@ -91,7 +91,7 @@ function Form({ formData, setFormData, aiLoading, setAiLoading }) {
             AI is generating summary...
           </span>
         ) : (
-          "✨ AI se Summary Banao"
+          "✨ Generate AI Summary "
         )}
       </button>
 
